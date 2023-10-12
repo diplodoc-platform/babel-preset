@@ -29,7 +29,7 @@ module.exports = function (context, options = {}) {
             useBuiltIns: true,
         })],
         isTypeScriptEnabled && [require.resolve('@babel/preset-typescript')],
-    ]
+    ].filter(Boolean)
 
     const plugins = [
         [require.resolve('@babel/plugin-transform-runtime'), runtimeOptions],
