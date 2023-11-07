@@ -1,6 +1,6 @@
 {
   "name": "@diplodoc/babel-preset",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "diplodoc Babel preset",
   "keywords": [
     "babel",
@@ -13,12 +13,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/diplodoc/babel-preset.git"
+    "url": "git+https://github.com/diplodoc-platform/babel-preset.git"
   },
   "bugs": {
-    "url": "https://github.com/diplodoc/babel-preset/issues"
+    "url": "https://github.com/diplodoc-platform/babel-preset/issues"
   },
-  "homepage": "https://github.com/diplodoc/babel-preset#readme",
+  "homepage": "https://github.com/diplodoc-platform/babel-preset#readme",
   "dependencies": {
     "@babel/core": "^7.23.2",
     "@babel/plugin-proposal-class-properties": "^7.18.6",
