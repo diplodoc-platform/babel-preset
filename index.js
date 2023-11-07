@@ -1,4 +1,3 @@
-
 const env = process.env.BABEL_ENV || process.env.NODE_ENV || 'development';
 const isEnvDevelopment = env === 'development';
 const isEnvTest = env === 'test';
@@ -19,11 +18,6 @@ module.exports = function (context, options = {}) {
 
     const presets = [
         [require.resolve('@babel/preset-env'), envOptions],
-        [require.resolve('@babel/preset-env'), Object.assign({}, envOptions, {
-            targets: {
-                node: 'current',
-            },
-        })],
         [require.resolve('@babel/preset-react'), Object.assign({}, reactOptions, {
             development: isEnvDevelopment || isEnvTest,
             useBuiltIns: true,
