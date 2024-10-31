@@ -11,6 +11,9 @@
   "files": [
     "index.js"
   ],
+  "scripts": {
+    "test": "exit 0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/diplodoc-platform/babel-preset.git"
