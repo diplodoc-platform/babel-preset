@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/diplodoc-platform/babel-preset/compare/v1.0.0...v1.0.1) (2025-08-11)
+
+
+### Bug Fixes
+
+* update version actions, node 22 ([4c0ac9c](https://github.com/diplodoc-platform/babel-preset/commit/4c0ac9c83e7608e868feda34b30513f7bab4e1cf))
+
 ## 1.0.3 (2024-10-31)
 
 
