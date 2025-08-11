@@ -1,6 +1,6 @@
 {
   "name": "@diplodoc/babel-preset",
-  "version": "1.0.3",
+  "version": "1.0.1",
   "description": "diplodoc Babel preset",
   "keywords": [
     "babel",
